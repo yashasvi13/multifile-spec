@@ -1,0 +1,5 @@
+description: unexpected error
+content:
+  application/json:
+    schema:
+      $ref : "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/schemas/Error.yaml"

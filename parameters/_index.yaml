@@ -1,0 +1,7 @@
+# path
+petId:
+  $ref: 'https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/path/petId.yaml'
+
+# limit
+limit:
+  $ref: 'https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/query/limit.yaml'

@@ -1,0 +1,4 @@
+UnexpectedError:
+  $ref: "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/responses/UnexpectedError.yaml"
+NullResponse:
+  $ref: "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/responses/NullResponse.yaml"

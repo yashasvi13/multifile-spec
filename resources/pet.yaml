@@ -1,0 +1,17 @@
+get:
+  summary: Detail
+  operationId: showPetById
+  description: Info for a specific pet
+  tags:
+    - pets
+  parameters:
+    - $ref: "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/parameters/path/petId.yaml"
+  responses:
+    '200':
+      description: Expected response to a valid request
+      content:
+        application/json:
+          schema:
+            $ref: "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/schemas/Pet.yaml"
+    default:
+      $ref: "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/responses/UnexpectedError.yaml"

@@ -1,0 +1,4 @@
+Pet:
+  $ref: "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/schemas/Pet.yaml"
+Error:
+  $ref: "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/schemas/Error.yaml"
