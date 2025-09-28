@@ -5,7 +5,7 @@ get:
   tags:
   - pets
   parameters:
-    - $ref: "https://github.com/yashasvi13/multifile-spec/blob/main/parameters/query/limit.yaml"
+    - $ref: "https://raw.githubusercontent.com/yashasvi13/multifile-spec/main/parameters/query/limit.yaml"
   responses:
     '200':
       description: A paged array of pets
